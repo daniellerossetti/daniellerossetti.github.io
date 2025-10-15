@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+            /* user styles */
+
+body {
+    background-color: darkgreen;
+    color: blue;
+    font-family: "Roboto Mono", monospace;
+    width:850px;
+    margin:0 auto;
+}
+
+.container {
+    background-color: #451425; /* Dark background */
+    margin-top: 5%;
+    width:850px;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+}
+
+mark {
+  background-color: yellow;
+}
+
+.header {
+    
+  display: flex;
+  align-items: center;
+    margin:10px;
+    border: 1px solid yellow;
+}
+.header nav {align-items: center;
+    margin:10px;
+}
+
+.box {
+    align-items: center;
+    margin:10px;
+    border: 1px solid yellow;
+}
+
+
+h2 {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style: none; /* Remove bullet points from list */
+    align-items: center;
+    padding: 10px 15px;
+    display: flex; /* Arrange navigation links horizontally */ 
+}
+
+ul li a {
+  color: lightblue;
+  padding: 10px 15px;
+  display: block;
+}
+
+a:link, a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+img {
+    margin:10px;
+    margin-left:20px;
+    padding: 20px;
+    border: 1px solid yellow;
+}
+
+footer {
+    margin-right:10px;
+    margin-bottom:0px;
+    text-align: right;
+}
